@@ -70,7 +70,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onProductClick }
               transition={{ duration: 0.8 }}
             >
               <div className="space-y-4">
-                <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-3 py-2 text-xs lg:text-sm">
+                <div className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 text-xs lg:text-sm font-medium border border-white/20">
                   <TrendingUp className="w-3 h-3 lg:w-4 lg:h-4" />
                   <span>#1 Dropshipping Platform</span>
                 </div>
@@ -92,7 +92,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onProductClick }
                   size="lg"
                   icon={ArrowRight}
                   iconPosition="right"
-                  className="bg-white text-blue-600 hover:bg-gray-50 shadow-lg"
+                  className="bg-blue-600 text-white hover:bg-blue-700 shadow-lg font-semibold"
                 >
                   Start Shopping
                 </Button>
@@ -100,7 +100,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onProductClick }
                   onClick={() => onNavigate('dropship')}
                   variant="outline"
                   size="lg"
-                  className="border-white text-white hover:bg-white hover:text-blue-600"
+                  className="border-2 border-white text-white hover:bg-white hover:text-blue-600 font-semibold shadow-lg"
                 >
                   Become a Dropshipper
                 </Button>
@@ -346,10 +346,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onProductClick }
               <div className="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
                 <input
                   type="email"
-                  placeholder="Enter your email"
-                  className="flex-1 px-4 py-3 rounded-lg border border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-white/10 backdrop-blur-sm text-white placeholder-blue-200"
+                  placeholder="Enter your email address"
+                  className="flex-1 px-4 py-3 rounded-lg border-2 border-white/30 focus:outline-none focus:ring-2 focus:ring-white focus:border-white bg-white/20 backdrop-blur-sm text-white placeholder-white/70 font-medium"
                 />
-                <Button className="bg-white text-blue-600 hover:bg-gray-50">
+                <Button className="bg-white text-blue-600 hover:bg-gray-50 font-semibold shadow-lg">
                   Subscribe
                 </Button>
               </div>
