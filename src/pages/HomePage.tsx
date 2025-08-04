@@ -133,8 +133,8 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onProductClick }
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-2xl blur-3xl opacity-20 animate-pulse" />
               <img
-                src="https://images.pexels.com/photos/3962285/pexels-photo-3962285.jpeg"
-                alt="Dropshipping Products"
+                src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg"
+                alt="Dropshipping and E-commerce Business"
                 className="relative w-full h-64 sm:h-80 lg:h-96 object-cover rounded-2xl shadow-2xl"
               />
             </motion.div>
